@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt-get update
-apt-get install -y build-essential
+apt-get install -y build-essential imagemagick
 mkdir work
 cd work
 wget http://www-e.uni-magdeburg.de/jschulen/ocr/gocr-0.50.tar.gz
